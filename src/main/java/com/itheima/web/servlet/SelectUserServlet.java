@@ -11,7 +11,7 @@ public class SelectUserServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         //1. 接收用户名
-        String username = request.getParameter("login");
+        String username = request.getParameter("loginout");
 
         //2. 调用service查询User对象
 
